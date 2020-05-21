@@ -20,6 +20,7 @@ var defaults = {
     quiet: false,
     port: 4400,
     portLive: 4401,
+    hostname: '0.0.0.0',
     targetDir: path.resolve(process.cwd(), 'public'),
     targetFile: 'index.html',
     appDir: path.resolve(__dirname, 'app'),
